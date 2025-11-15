@@ -142,7 +142,7 @@ class Warrior(Player):
 class Mage(Player):
     
     def __init__(self, name):
-        super().__init__(name, "Mage" 80, 8, 20)
+        super().__init__(name, "Mage", 80, 8, 20)
 
     def attack(self, target):
         damage = self.magic
