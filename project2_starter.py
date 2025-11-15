@@ -89,10 +89,7 @@ class Character:
                 self.health = 0
 
                 print(f"{self.name} takes {damage} damage. Health is now {self.health}.")
-        """
-        Reduces this character's health by the damage amount.
-        Health should never go below 0.
-        """
+      
         # TODO: Implement taking damage
         # Reduce self.health by damage amount
         # Make sure health doesn't go below 0
