@@ -96,9 +96,7 @@ class Character:
         
         
     def display_stats(self):
-        """
-        Prints the character's current stats in a nice format.
-        """
+       
         # TODO: Print character's name, health, strength, and magic
         # Make it look nice with formatting
         print(f"---{self.name}'s Stats ---")
