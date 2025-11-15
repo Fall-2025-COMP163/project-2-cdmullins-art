@@ -108,7 +108,7 @@ class Player(Character):
             print(f"{self.name} leveled up to level {self.level}!")
 
     def get_level(self):
-        print(f"self.name} is at level {self.level}")
+        print(f"{self.name} is at level {self.level}")
         
     def display_stats(self):
         super().display_stats()
